@@ -12,27 +12,104 @@
 <body>
   <header class="header container">
     <nav>
-      <ul>
+      <ul class="header__menu">
         <li>
-          <a href="#about">About</a>
+          <a class="header__link" href="#about">About</a>
         </li>
         <li>
-          <a href="#featured">Work</a>
+          <a class="header__link" href="#featured">Work</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a class="header__link" href="#contact">Contact</a>
+        </li>
+        <li class="header__line"></li>
+        <li class="">
+          <button class="header__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a class="header__resume btn" href="#">Resume</a>
         </li>
       </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
     </nav>
   </header>
-  <!-- <main>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+  <main>
+    <section class="hero container">
+      <img class="hero__img" src="/first.jpg" alt="Profile picture">
+      <h2 class="hero__subtitle">Hi, I'm Simeon 👋</h2>
+      <h1 class="hero__title">SOFTWARE <br> DEVELOPER.</h1>
+      <p class="hero__description">
+        I recently finished my studies at SoftUni Academy and now continue to grow my knowledge as a <strong>Junior
+          Software
+          Developer</strong>, in the past three months I've worked on personal projects as an intern and learned a lot
+        in the
+        process. <strong>I'm most excited about building web applications, as well as learning new languages or
+          technologies.</strong>
+      </p>
+      <a class="hero__btn btn" href="">Reach out</a>
+    </section>
+    <section class="about container section">
+      <div class="about__content">
+        <h2 class="about__title">About</h2>
+        <p class="about__description">
+          Hello there! I am Simeon, a <strong>Software Developer</strong> eager to learn how thinks work in depth.
+          I really like to start my day with a cup of coffee and fresh ideas for developing a project
+        </p>
+        <p class="about__description">Something</p>
+        <p class="about__description">Something</p>
+        <hr class="about_hr">
+        <h3 class="about__subtitle">Technologies</h3>
+        <div class="about__ul-container">
+          <ul class="about_ul">
+            <li class="about__list">ASP.NET Core</li>
+            <li class="about__list">Entity Framework Core</li>
+            </li>
+            <li class="about__list">C#</li>
+            <li class="about__list">JavaScript (ES6+)</li>
+          </ul>
+          <ul class="about_ul">
+            <li class="about__list">HTML</li>
+            <li class="about__list">CSS</li>
+            <li class="about__list">ReactJS</li>
+            <li class="about__list">SQL (MS SQL)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about_img-wrapper">
+        <img class="about__img" src="first.jpg" alt="Profile picture">
+      </div>
+    </section>
+    <section class="featured container section">
+      <h3 class="featured__subtitle">Featured project</h3>
+      <div class="featured__wrapper">
+        <h2 class="featured__title">Pet Care</h2>
+        <a class="featured__link" href="">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+      <p class="featured__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae aspernatur
+        officiis excepturi veritatis, exercitationem unde hic laboriosam adipisci debitis amet optio? Deserunt suscipit
+        vel autem delectus facere eligendi ipsa voluptas!</p>
+    </section>
+    <!-- <section></section> -->
+    <!-- <section></section> -->
   </main>
-  <footer></footer> -->
+  <!-- <footer></footer> -->
   <script type="module" src="./src/main.js"></script>
 </body>
 
