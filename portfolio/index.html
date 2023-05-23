@@ -24,7 +24,7 @@
         </li>
         <li class="header__line"></li>
         <li class="">
-          <button class="header__sun">
+          <button id="theme-toggle" class="header__sun">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path
                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
@@ -59,7 +59,7 @@
         </li>
         <li class="mobile-nav__link-line"></li>
         <li>
-          <button class="mobile-nav__sun">
+          <button id="theme-toggle" class="mobile-nav__sun">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path
                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
@@ -116,7 +116,8 @@
         </div>
       </div>
       <div class="about_img-wrapper">
-        <img class="about__img" src="first.jpg" alt="Profile picture">
+        <img class="about__img lazy loading" src="https://fakeimg.pl/2606x2401" data-src="/first.jpg"
+          alt="Profile picture">
       </div>
     </section>
     <section id="featured" class="featured container section">
@@ -159,34 +160,44 @@
       </div>
       <div class="featured__img-container">
         <div class="featured__img-wrapper">
-          <img src="/pet-care-about.png" alt="Pet Care Application about">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-about.png"
+            alt="Pet Care Application about">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-home.png" alt="Pet Care Application home">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-home.png"
+            alt="Pet Care Application home">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-login.png" alt="Pet Care Application login">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-login.png"
+            alt="Pet Care Application login">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-register.png" alt="Pet Care Application register">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-register.png"
+            alt="Pet Care Application register">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-my-account.png" alt="Pet Care Application my account">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-my-account.png"
+            alt="Pet Care Application my account">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-my-pets.png" alt="Pet Care Application my pets">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-my-pets.png"
+            alt="Pet Care Application my pets">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-my-appointments.png" alt="Pet Care Application my appointments">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-my-appointments.png"
+            alt="Pet Care Application my appointments">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-add-pet.png" alt="Pet Care Application add pett">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-add-pet.png"
+            alt="Pet Care Application add pett">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-team.png" alt="Pet Care Application team">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-team.png"
+            alt="Pet Care Application team">
         </div>
         <div class="featured__img-wrapper">
-          <img src="/pet-care-make-appointment.png" alt="Pet Care Application make appointmen">
+          <img class="lazy loading" src="https://fakeimg.pl/1901x949" data-src="/pet-care-make-appointment.png"
+            alt="Pet Care Application make appointmen">
         </div>
       </div>
     </section>
@@ -201,7 +212,8 @@
         <!-- Course 1 -->
         <h3 class="work__project-title">C# Fundamentals course</h3>
         <div class="work__img-wrapper work__image1">
-          <img class="work__img-certificate" src="/csharp-fundamentals.jpg" alt="Csharp fundamentals">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122"
+            data-src="/csharp-fundamentals.jpg" alt="Csharp fundamentals">
         </div>
         <div class="work__project work__content1">
           <h3 class="work__project-subtitle">C# Fundamentals course</h3>
@@ -227,7 +239,8 @@
         <!-- Course 2 -->
         <h3 class="work__project-title">C# Advanced course</h3>
         <div class="work__img-wrapper work__image2">
-          <img class="work__img-certificate" src="/csharp-advanced.jpg" alt="Csharp advanced">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122"
+            data-src="/csharp-advanced.jpg" alt="Csharp advanced">
         </div>
         <div class="work__project work__content2">
           <h3 class="work__project-subtitle">C# Advanced course</h3>
@@ -253,7 +266,8 @@
         <!-- Course 2 -->
         <h3 class="work__project-title">C# OOP</h3>
         <div class="work__img-wrapper work__image3">
-          <img class="work__img-certificate" src="/oop.jpg" alt="OOP">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122" data-src="/oop.jpg"
+            alt="OOP">
         </div>
         <div class="work__project work__content3">
           <h3 class="work__project-subtitle">C# OOP</h3>
@@ -279,7 +293,8 @@
         <!-- Course 3 -->
         <h3 class="work__project-title">MSSQL course</h3>
         <div class="work__img-wrapper work__image4">
-          <img class="work__img-certificate" src="/mssql.jpg" alt="MS SQL">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122"
+            data-src="/mssql.jpg" alt="MS SQL">
         </div>
         <div class="work__project work__content4">
           <h3 class="work__project-subtitle">MSSQL course</h3>
@@ -305,7 +320,8 @@
         <!-- Course 3 -->
         <h3 class="work__project-title">Entity Framework Core</h3>
         <div class="work__img-wrapper work__image5">
-          <img class="work__img-certificate" src="/efcore.jpg" alt="EFCore">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122"
+            data-src="/efcore.jpg" alt="EFCore">
         </div>
         <div class="work__project work__content5">
           <h3 class="work__project-subtitle">Entity Framework Core</h3>
@@ -331,7 +347,8 @@
         <!-- Course 3 -->
         <h3 class="work__project-title">ASP.NET Fundamentals</h3>
         <div class="work__img-wrapper work__image6">
-          <img class="work__img-certificate" src="/asp-net-fundamentals.jpg" alt="asp-net-fundamentals">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122"
+            data-src="/asp-net-fundamentals.jpg" alt="asp-net-fundamentals">
         </div>
         <div class="work__project work__content6">
           <h3 class="work__project-subtitle">ASP.NET Fundamentals</h3>
@@ -357,7 +374,8 @@
         <!-- Course 3 -->
         <h3 class="work__project-title">ASP-NET Advanced</h3>
         <div class="work__img-wrapper work__image7">
-          <img class="work__img-certificate" src="/asp-net-advanced.jpg" alt="asp-net-advanced">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122"
+            data-src="/asp-net-advanced.jpg" alt="asp-net-advanced">
         </div>
         <div class="work__project work__content7">
           <h3 class="work__project-subtitle">ASP-NET Advanced</h3>
@@ -383,7 +401,8 @@
         <!-- Course 3 -->
         <h3 class="work__project-title">JavaScript Advanced</h3>
         <div class="work__img-wrapper work__image8">
-          <img class="work__img-certificate" src="/js-advanced.jpg" alt="js-advanced">
+          <img class="lazy loading" class="work__img-certificate" src="https://fakeimg.pl/780x1122"
+            data-src="/js-advanced.jpg" alt="js-advanced">
         </div>
         <div class="work__project work__content8">
           <h3 class="work__project-subtitle">JavaScript Advanced</h3>
