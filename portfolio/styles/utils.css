@@ -23,7 +23,7 @@ xxl
     text-decoration: none;
     letter-spacing: -0.05em;
     background-color: var(--clr-rose);
-    color: var(--clr-light);
+    color: #f1f5f9;
     padding: 0.5em 1em;
     border-radius: 6px;
     box-shadow: 0 10px 20px rgb(225, 29, 72, 0.5),
@@ -50,6 +50,15 @@ xxl
 
 .section {
     margin-top: 10rem;
+}
+
+.loading {
+    filter: blur(25px) grayscale(50%);
+}
+
+.loaded {
+    filter: blur(0) grayscale(0);
+    transition: 0.5s ease-in-out;
 }
 
 /* xs */
