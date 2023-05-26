@@ -22,7 +22,8 @@
 .work__img-wrapper {
     width: 15rem;
     position: relative;
-    margin: 1rem auto;
+    margin: 3rem auto;
+    transition: transform 0.3s;
 }
 
 .work__img-wrapper::after {
@@ -42,6 +43,10 @@
 
 }
 
+.work__img-wrapper:hover {
+    transform: scale(1.05);
+}
+
 .work__project:not(:last-child) {
     margin-bottom: 5rem;
 }
@@ -59,10 +64,15 @@
 }
 
 .work__project-btn {
+    word-spacing: 3px;
     font-size: var(--size-sm);
 }
 
 .work__project-subtitle {
+    display: block;
+}
+
+.work__sub-project-btn {
     display: none;
 }
 
@@ -299,8 +309,8 @@
 }
 
 /* xxl */
-@media (min-width: 1536px) { 
+@media (min-width: 1536px) {
     .work__container {
         width: 70%;
     }
-} 
+}
