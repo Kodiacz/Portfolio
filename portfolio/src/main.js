@@ -13,9 +13,11 @@ import '../styles/utils.css';
 import mobileNav from './utils/mobile-nav.js';
 import darkMode from './utils/dark-mode.js';
 import lazyLoading from './utils/lazy-loading.js';
-// import openCertificates from './utils/certificates';
+import openCertificates from './utils/certificates-image.js';
+import openProjecImage from './utils/project-image.js';
 
 mobileNav();
 darkMode();
 lazyLoading();
-// openCertificates();
+openCertificates();
+openProjecImage();
