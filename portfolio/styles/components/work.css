@@ -1,4 +1,4 @@
-.work {
+.work__project div {
     text-align: center;
 }
 
@@ -53,8 +53,8 @@
 
 .work__project-description1 {
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
-    margin: 1rem 0;
+    color: var(--clr-slate200);
+    /* margin: 1rem 0; */
 }
 
 .work__project-description2 {
@@ -63,9 +63,15 @@
     margin-bottom: 1rem;
 }
 
+.work__project-description2-list {
+    margin-bottom: 2rem;
+    padding-left: 1em;
+}
+
 .work__project-btn {
     word-spacing: 3px;
     font-size: var(--size-sm);
+
 }
 
 .work__project-subtitle {
@@ -207,7 +213,7 @@
 
     .work__project-description1 {
         font-size: var(--size-xs);
-        margin: 1em;
+        /* margin: 1em; */
     }
 
     .work__project-description2 {
